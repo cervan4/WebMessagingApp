@@ -2,7 +2,7 @@ body
 {
     font-family: Ariel;
     margin: 0;
-    padding: 5px 15px;
+    padding: 0px 0px;
 }
 header
 {
@@ -23,7 +23,8 @@ nav ul li
     background:white;
     display: inline-block;
     list-style-type: none;
-    padding: 5px 15px;
+    padding: 0px 20px 0px 20px ;
+    margin: 0;
 }
 nav ul li a
 {
