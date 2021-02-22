@@ -3,6 +3,16 @@ body
     font-family: Ariel;
     margin: 0;
     padding: 0px 0px;
+    background-image: url(4k.jpg);
+    background-size: cover;
+    background-color: antiquewhite;
+}
+h1{
+    color: white;
+}
+h2
+{
+    color: white;
 }
 header
 {
@@ -10,12 +20,10 @@ header
     color: white;
 }
 header h1{
-    margin: 0;
     display: inline;
 }
 nav ul
 {
-    margin: 0;
     display: inline;
 }
 nav ul li
@@ -23,7 +31,10 @@ nav ul li
     background:white;
     display: inline-block;
     list-style-type: none;
-    padding: 0px 20px 0px 20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0;
 }
 nav ul li a
@@ -31,3 +42,36 @@ nav ul li a
     color: black;
 }
 
+.form-container
+{
+    width: 250px;
+    height: auto;
+    padding: 20px 30px;
+    background-color: rgb(14, 74, 185);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+}
+ul.list
+{
+    list-style-type: none;
+    text-align: center;
+}
+ul.list li
+{
+    margin-bottom: 10px;
+}
+ul.list li input
+{
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+ul.list li input[type = "button"]
+{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
